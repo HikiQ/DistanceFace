@@ -1,9 +1,10 @@
-# Desription
+# Description
 
 A simple watch face with battery percentage and distance graph.
 
 # How to get
-- Will be uploaded to Garmin Connect IQ
+- Garmin Connect IQ store
+- Build using Garmin Connect IQ SDK
 
 # Known issues
 - battery charge status may show charging icon while not charging
