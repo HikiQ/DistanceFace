@@ -1,0 +1,28 @@
+<settings>
+	<setting propertyKey="@Properties.colorForeground"
+		title="@Strings.colorForeground">
+		<settingConfig type="list">
+			<listEntry value="1">@Strings.colorValueWhite</listEntry>
+			<listEntry value="4">@Strings.colorValueBlack</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.colorBackground"
+		title="@Strings.colorBackground">
+		<settingConfig type="list">
+			<listEntry value="4">@Strings.colorValueBlack</listEntry>
+			<listEntry value="1">@Strings.colorValueWhite</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.colorGrid"
+		title="@Strings.colorGrid">
+		<settingConfig type="list">
+			<listEntry value="3">@Strings.colorValueDarkGray</listEntry>
+			<listEntry value="2">@Strings.colorValueLightGray</listEntry>
+			<listEntry value="1">@Strings.colorValueWhite</listEntry>
+			<listEntry value="4">@Strings.colorValueBlack</listEntry>
+		</settingConfig>
+	</setting>
+
+</settings>

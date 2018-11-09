@@ -1,0 +1,5 @@
+<properties>
+	<property id="colorBackground" type="number">4</property>
+	<property id="colorForeground" type="number">1</property>
+	<property id="colorGrid" type="number">3</property>
+</properties>

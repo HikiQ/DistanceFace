@@ -1,0 +1,11 @@
+<strings>
+	<string id="AppName">DistanceFace</string>
+	<string id="colorForeground">Foreground color</string>
+	<string id="colorBackground">Background color</string>
+	<string id="colorGrid">Grid color</string>
+	
+	<string id="colorValueWhite">White</string>
+	<string id="colorValueBlack">Black</string>
+	<string id="colorValueDarkGray">Dark gray</string>
+	<string id="colorValueLightGray">Light gray</string>
+</strings>
