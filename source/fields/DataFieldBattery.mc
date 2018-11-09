@@ -110,7 +110,7 @@ class DataFieldBattery extends DataFieldBase {
     This is called every time screen updates but does anything only every N seconds
     */
     protected function checkIsCharging(battery) {
-        self.is_charging = battery > previous_battery_value + 1;
+        self.is_charging = battery > (previous_battery_value + 0.1);
 
         var now = Time.now();
         var elapsed = now.subtract(previous_battery_check);
