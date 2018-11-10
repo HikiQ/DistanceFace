@@ -12,7 +12,6 @@ class OverlayBarBase extends OverlayBase {
     protected var base = 0.0;
     protected var bar_direction = Graphics.ARC_COUNTER_CLOCKWISE;
     protected var color_limits = null;
-    protected var color_bar = null;
 
     protected var origin = null;
     protected var radius = null;
@@ -22,7 +21,6 @@ class OverlayBarBase extends OverlayBase {
     function initialize(config) {
         OverlayBase.initialize(config);
         self.color_limits = self.colors.foreground;
-        self.color_bar = self.colors.grid;
     }
 
     /**
@@ -55,7 +53,7 @@ class OverlayBarBase extends OverlayBase {
 
         // foreground
         dc.setPenWidth(thickness_fg);
-        dc.setColor(color_bar, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(self.colors.grid, Graphics.COLOR_TRANSPARENT);
 
         var bar = degrees * level;
         if (bar.abs() >= 0.6) {

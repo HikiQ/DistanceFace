@@ -90,7 +90,7 @@ class DataFieldGraph extends DataFieldBase {
 
             // calculate and draw grid
             var grid = calculateGridSpacing(max_value);
-            dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(self.colors.grid, Graphics.COLOR_TRANSPARENT);
             drawGrid(dc, y_base, grid);
             dc.setColor(self.colors.foreground, Graphics.COLOR_TRANSPARENT);
 
