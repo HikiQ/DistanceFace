@@ -1,0 +1,23 @@
+<settings>
+	<setting propertyKey="@Properties.colorForeground"
+		title="@Strings.colorForeground">
+		<settingConfig type="list">
+			[ListEntry.Colors]
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.colorBackground"
+		title="@Strings.colorBackground">
+		<settingConfig type="list">
+			[ListEntry.Colors]
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.colorGrid"
+		title="@Strings.colorGrid">
+		<settingConfig type="list">
+			[ListEntry.Colors]
+		</settingConfig>
+	</setting>
+
+</settings>

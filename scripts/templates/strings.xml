@@ -1,0 +1,8 @@
+<strings>
+	<string id="AppName">DistanceFace</string>
+	<string id="colorForeground">Foreground color</string>
+	<string id="colorBackground">Background color</string>
+	<string id="colorGrid">Grid color</string>
+
+	[String.Colors]
+</strings>

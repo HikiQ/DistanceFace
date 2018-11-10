@@ -2,26 +2,63 @@
 	<setting propertyKey="@Properties.colorForeground"
 		title="@Strings.colorForeground">
 		<settingConfig type="list">
-			<listEntry value="1">@Strings.colorValueWhite</listEntry>
-			<listEntry value="4">@Strings.colorValueBlack</listEntry>
+			<listEntry value="0">@Strings.ColorValueTransparent</listEntry>
+			<listEntry value="1">@Strings.ColorValueWhite</listEntry>
+			<listEntry value="2">@Strings.ColorValueLightGray</listEntry>
+			<listEntry value="3">@Strings.ColorValueDarkGray</listEntry>
+			<listEntry value="4">@Strings.ColorValueBlack</listEntry>
+			<listEntry value="5">@Strings.ColorValueRed</listEntry>
+			<listEntry value="6">@Strings.ColorValueDarkRed</listEntry>
+			<listEntry value="7">@Strings.ColorValueOrange</listEntry>
+			<listEntry value="8">@Strings.ColorValueYellow</listEntry>
+			<listEntry value="9">@Strings.ColorValueGreen</listEntry>
+			<listEntry value="10">@Strings.ColorValueDarkGreen</listEntry>
+			<listEntry value="11">@Strings.ColorValueBlue</listEntry>
+			<listEntry value="12">@Strings.ColorValueDarkBlue</listEntry>
+			<listEntry value="13">@Strings.ColorValuePurple</listEntry>
+			<listEntry value="14">@Strings.ColorValuePink</listEntry>
 		</settingConfig>
 	</setting>
 
 	<setting propertyKey="@Properties.colorBackground"
 		title="@Strings.colorBackground">
 		<settingConfig type="list">
-			<listEntry value="4">@Strings.colorValueBlack</listEntry>
-			<listEntry value="1">@Strings.colorValueWhite</listEntry>
+			<listEntry value="0">@Strings.ColorValueTransparent</listEntry>
+			<listEntry value="1">@Strings.ColorValueWhite</listEntry>
+			<listEntry value="2">@Strings.ColorValueLightGray</listEntry>
+			<listEntry value="3">@Strings.ColorValueDarkGray</listEntry>
+			<listEntry value="4">@Strings.ColorValueBlack</listEntry>
+			<listEntry value="5">@Strings.ColorValueRed</listEntry>
+			<listEntry value="6">@Strings.ColorValueDarkRed</listEntry>
+			<listEntry value="7">@Strings.ColorValueOrange</listEntry>
+			<listEntry value="8">@Strings.ColorValueYellow</listEntry>
+			<listEntry value="9">@Strings.ColorValueGreen</listEntry>
+			<listEntry value="10">@Strings.ColorValueDarkGreen</listEntry>
+			<listEntry value="11">@Strings.ColorValueBlue</listEntry>
+			<listEntry value="12">@Strings.ColorValueDarkBlue</listEntry>
+			<listEntry value="13">@Strings.ColorValuePurple</listEntry>
+			<listEntry value="14">@Strings.ColorValuePink</listEntry>
 		</settingConfig>
 	</setting>
 
 	<setting propertyKey="@Properties.colorGrid"
 		title="@Strings.colorGrid">
 		<settingConfig type="list">
-			<listEntry value="3">@Strings.colorValueDarkGray</listEntry>
-			<listEntry value="2">@Strings.colorValueLightGray</listEntry>
-			<listEntry value="1">@Strings.colorValueWhite</listEntry>
-			<listEntry value="4">@Strings.colorValueBlack</listEntry>
+			<listEntry value="0">@Strings.ColorValueTransparent</listEntry>
+			<listEntry value="1">@Strings.ColorValueWhite</listEntry>
+			<listEntry value="2">@Strings.ColorValueLightGray</listEntry>
+			<listEntry value="3">@Strings.ColorValueDarkGray</listEntry>
+			<listEntry value="4">@Strings.ColorValueBlack</listEntry>
+			<listEntry value="5">@Strings.ColorValueRed</listEntry>
+			<listEntry value="6">@Strings.ColorValueDarkRed</listEntry>
+			<listEntry value="7">@Strings.ColorValueOrange</listEntry>
+			<listEntry value="8">@Strings.ColorValueYellow</listEntry>
+			<listEntry value="9">@Strings.ColorValueGreen</listEntry>
+			<listEntry value="10">@Strings.ColorValueDarkGreen</listEntry>
+			<listEntry value="11">@Strings.ColorValueBlue</listEntry>
+			<listEntry value="12">@Strings.ColorValueDarkBlue</listEntry>
+			<listEntry value="13">@Strings.ColorValuePurple</listEntry>
+			<listEntry value="14">@Strings.ColorValuePink</listEntry>
 		</settingConfig>
 	</setting>
 

@@ -2,4 +2,7 @@ bin
 release
 export
 material
+scripts/formatted
+
 .directory
+.pydevproject

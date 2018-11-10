@@ -3,9 +3,20 @@
 	<string id="colorForeground">Foreground color</string>
 	<string id="colorBackground">Background color</string>
 	<string id="colorGrid">Grid color</string>
-	
-	<string id="colorValueWhite">White</string>
-	<string id="colorValueBlack">Black</string>
-	<string id="colorValueDarkGray">Dark gray</string>
-	<string id="colorValueLightGray">Light gray</string>
+
+	<string id="ColorValueTransparent">Transparent</string>
+	<string id="ColorValueWhite">White</string>
+	<string id="ColorValueLightGray">Light gray</string>
+	<string id="ColorValueDarkGray">Dark gray</string>
+	<string id="ColorValueBlack">Black</string>
+	<string id="ColorValueRed">Red</string>
+	<string id="ColorValueDarkRed">Dark red</string>
+	<string id="ColorValueOrange">Orange</string>
+	<string id="ColorValueYellow">Yellow</string>
+	<string id="ColorValueGreen">Green</string>
+	<string id="ColorValueDarkGreen">Dark green</string>
+	<string id="ColorValueBlue">Blue</string>
+	<string id="ColorValueDarkBlue">Dark blue</string>
+	<string id="ColorValuePurple">Purple</string>
+	<string id="ColorValuePink">Pink</string>
 </strings>
