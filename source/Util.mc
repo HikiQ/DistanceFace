@@ -53,14 +53,17 @@ class ColorMapper {
 
     /**
     Get the color for a given index
-    @param idx [Number/String]: the color index corresponding to the color_map (no bound checking)
+    @param idx [Number/String]: the color index corresponding to the color_map
     */
     function getColor(idx) {
         if( idx instanceof Lang.String ){
             idx = idx.toNumber();
         }
-
-        return color_map[idx];
+        if ( color_map.hasKey(idx) ) {
+            return color_map[idx];
+        } else {
+            return Graphics.COLOR_RED;
+        }
     }
 }
 
