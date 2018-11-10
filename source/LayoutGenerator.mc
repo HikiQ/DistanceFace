@@ -10,7 +10,7 @@ class LayoutGenerator {
 
     size:
         <= 0: no definition
-        < 1: percent of the full width
+        < 1: fraction of the full width
         >= 1: in pixels
     */
     function splitVertically(layout_bin, heights) {
@@ -37,7 +37,7 @@ class LayoutGenerator {
 
     size:
         <= 0: no definition
-        < 1: percent of the full width
+        < 1: fraction of the full width
         >= 1: in pixels
     */
     function splitHorizontally(layout_bin, widths) {

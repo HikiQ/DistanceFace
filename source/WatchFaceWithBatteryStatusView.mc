@@ -1,4 +1,4 @@
-using Toybox.WatchUi as Ui;
+using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
@@ -32,7 +32,7 @@ class Config {
     var colors = new Colors();
 }
 
-class WatchFaceWithBatteryStatusView extends Ui.WatchFace {
+class WatchFaceWithBatteryStatusView extends WatchUi.WatchFace {
 
     //! global font, color, etc definition
     protected var config = null;
@@ -51,6 +51,14 @@ class WatchFaceWithBatteryStatusView extends Ui.WatchFace {
         init();
     }
 
+    /**
+    when settings are changed from connectIQ
+    */
+    function onSettingsChanged() {
+        loadSettings();
+        WatchUi.requestUpdate();
+    }
+
     protected function init() {
         config = new Config();
         layout = new Layout();
@@ -58,7 +66,11 @@ class WatchFaceWithBatteryStatusView extends Ui.WatchFace {
         overlays = [];
     }
 
-    protected function loadResources() {
+    /**
+    All these settings can be changes on the fly.
+    If more settins are added check the onSettingsChanged()
+    */
+    protected function loadSettings() {
         var app = Application.getApp();
         var mapper = new ColorMapper();
 
@@ -69,14 +81,17 @@ class WatchFaceWithBatteryStatusView extends Ui.WatchFace {
 
     // Load your resources here
     function onLayout(dc) {
-        loadResources();
-        var ref = Graphics.COLOR_BLACK;
+        loadSettings();
 
         config.fonts.time_height = dc.getFontHeight(config.fonts.time);
         config.fonts.data_height = dc.getFontHeight(config.fonts.data);
 
         var layout_generator = new LayoutGenerator();
+
+        // full cancas x0, y1, x1, y1
         var canvas = new LayoutBin(0, 0, dc.getWidth()-1, dc.getHeight()-1);
+        // split canvas to 3 parts, height for the middle row is set
+        // and -1 distributes the rest evenly for the 1st and 3rd row
         canvas = layout_generator.splitVertically(canvas, [-1, config.fonts.time_height - 10, -1]);
 
         // time
